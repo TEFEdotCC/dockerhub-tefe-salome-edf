@@ -1,0 +1,22 @@
+# Salome Docker image
+
+The Salome Docker image with
+ * OpenTURNS for the treatment of uncertainties (see http://www.openturns.org/)
+ * ADAO for automatic calibration
+ * EFICAS which provides an interface for parameter files
+
+
+# Usage
+
+```bash
+./run.sh latest salome
+```
+
+
+# Contribute
+
+Feel free to contribute and add something.
+Actually tasks are:
+ * AMD GPU Support
+ * Fix actually occur Error Messages from Salome
+
